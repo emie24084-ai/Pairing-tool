@@ -1,7 +1,7 @@
 {
-  "name": "waleed-cockies-server",
+  "name": "waleed-khan-bomber",
   "version": "2.0.0",
-  "description": "Facebook Cookie & Token Bomber System with Monitor",
+  "description": "WALEED KHAN - Facebook Cookie & Token Bomber System with Live Monitor",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,17 +12,23 @@
     "cookie",
     "token",
     "bomber",
-    "auto-message"
+    "auto-message",
+    "waleed-khan",
+    "websocket",
+    "monitor"
   ],
-  "author": "Waleed",
+  "author": "WALEED KHAN",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "ws": "^8.14.2",
-    "axios": "^1.6.0",
+    "express": "^4.21.0",
+    "ws": "^8.18.0",
+    "axios": "^1.7.7",
     "fca-mafiya": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
